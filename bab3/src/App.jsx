@@ -1,5 +1,6 @@
 
 import './App.css'
+import { Route, Routes } from 'react-router-dom'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { NavLink, Route, Routes } from 'react-router-dom'
 import CardStatusDemo from './component/CardStatusDemo'
@@ -60,21 +61,10 @@ function App() {
       </Navbar>
       <Routes>
         <Route path='/' />
-        <Route path='/transaksi' element={
-          <>
-            <TransaksiItem />
-          </>
-        } />
+        <Route path='/transaksi' element={ <TransaksiItem />} />
         <Route path='/laporan' element={<CardStatusDemo />} />
         <Route path='/kartu' element={ <KartuRingkasan />} />
-        <Route path='/badge' element={
-          <div className="badge-list">
-            <Badge tipe="Pemasukan">+ Rp 50.000</Badge>
-            <Badge tipe="Pengeluaran">- Rp 20.000</Badge>
-            <Badge tipe="Pemasukan">+ Rp 150.000</Badge>
-            <Badge tipe="Pengeluaran">- Rp 35.000</Badge>
-          </div>
-        } />
+        <Route path='/badge' element={ <Badge />} />
         <Route path='/wallet' element={ <WalletSummary />} />
         <Route path='/walletsummary' element={<WalletSummary />} />
         <Route path='/cardstatusdemo' element={<CardStatusDemo />} />
