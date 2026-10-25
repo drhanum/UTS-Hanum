@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import {Form, InputGroup, Modal, Button, Table, ProgressBar}from 'react-bootstrap';
 
 export default function TransactionManager() {
-  const [show, setShow] = useState(false)
+  const [show, setShow] = useState(false);
   const [transaksi, setTransaksi] = useState([])
   
   const handleClose = () => setShow(false);
