@@ -65,7 +65,7 @@ function App() {
         <Route path='/laporan' element={<CardStatusDemo />} />
         <Route path='/kartu' element={ <KartuRingkasan />} />
         <Route path='/badge' element={ <Badge />} />
-        <Route path='/walletsummary' element={ <WalletSummary />} />
+        <Route path='/wallet' element={ <WalletSummary />} />
         <Route path='/cardstatusdemo' element={ <CardStatusDemo />} />
         <Route path='/headerbanner' element={ <HeaderBanner />} />
         <Route path='/transactionmanager' element={ <TransactionManager />} />
