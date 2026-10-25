@@ -62,14 +62,14 @@ function App() {
       <Routes>
         <Route path='/' />
         <Route path='/transaksi' element={ <TransaksiItem />} />
-        <Route path='/laporan' element={<CardStatusDemo />} />
         <Route path='/kartu' element={ <KartuRingkasan />} />
         <Route path='/badge' element={ <Badge />} />
         <Route path='/wallet' element={ <WalletSummary />} />
-        <Route path='/cardstatusdemo' element={ <CardStatusDemo />} />
-        <Route path='/headerbanner' element={ <HeaderBanner />} />
-        <Route path='/transactionmanager' element={ <TransactionManager />} />
         <Route path='/LayoutGrid' element={ <LayoutGrid/>  } />
+        <Route path='/HeaderBanner' element={ <HeaderBanner/>  } />
+        <Route path='/CardStatusDemo' element={ <CardStatusDemo/> } />
+        <Route path='/AppNavigation' element={ <AppNavigation/> } />
+        <Route path='/TransactionManager' element={ <TransactionManager/> } />
       </Routes>      
     </>
   )
