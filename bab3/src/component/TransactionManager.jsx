@@ -1,6 +1,8 @@
 import {useState} from 'react';
 import { useState, useEffect } from 'react';
 import {Form, InputGroup, Modal, Button, Table, ProgressBar}from 'react-bootstrap';
+// const s = useState(false)
+// const t = useState([])
 
 export default function TransactionManager() {
   const [show, setShow] = useState(false);
@@ -115,4 +117,3 @@ export default function TransactionManager() {
     </div>
   );
 }
-//coba
