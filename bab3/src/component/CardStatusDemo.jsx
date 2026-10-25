@@ -1,17 +1,17 @@
 import { Card, Button, Badge, Alert, Dropdown, ButtonGroup } from 'react-bootstrap';
 
-export default function CardStatusDemo() {
+Export default function CardStatusDemo() {
     return (
         <Card className="shadow-sm style={{ width: '24rem' }}">
-            <Card.Header className="d-flex justify-content-betweenalign-items-center">
+            <Card.header className="d-flex justify-content-betweenalign-items-center">
                 <span>Laporan Dompet</span>
                 <Badge bg="success">Aktif</Badge>
-            </Card.Header>
-            <Card.Body>
+            </Card.header>
+            <Card.body>
                 <Alert variant="info" className="py-2">
                     Anggaran tersisa dalam batas aman.
                 </Alert>
-                <Card.Title className="fs-3">Rp 3.450.000</Card.Title>
+                <Card.title className="fs-3">Rp 3.450.000</Card.title>
                 <Card.Text className="text-muted">
                     Total pemasukan bulan ini telah melebihi target.
                 </Card.Text>
@@ -24,7 +24,7 @@ export default function CardStatusDemo() {
                         <Dropdown.Item href="#/excel">Format Excel</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
-            </Card.Body>
+            </Card.body>
         </Card>
     );
 }
