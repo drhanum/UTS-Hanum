@@ -48,7 +48,7 @@ function App() {
                 <NavDropdown.Item as={NavLink} to='/kartu'>
                   KartuRingkasan
                 </NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to='/layoutgrid'>
+                <NavDropdown.Item as={NavLink} to='/LayoutGrid'>
                   LayoutGrid
                 </NavDropdown.Item>
                 <NavDropdown.Item as={NavLink} to='/walletsummary'>
@@ -65,12 +65,11 @@ function App() {
         <Route path='/laporan' element={<CardStatusDemo />} />
         <Route path='/kartu' element={ <KartuRingkasan />} />
         <Route path='/badge' element={ <Badge />} />
-        <Route path='/wallet' element={ <WalletSummary />} />
-        <Route path='/walletsummary' element={<WalletSummary />} />
-        <Route path='/cardstatusdemo' element={<CardStatusDemo />} />
-        <Route path='/headerbanner' element={<HeaderBanner />} />
-        <Route path='/transactionmanager' element={<TransactionManager />} />
-        <Route path='/layoutgrid' element={<LayoutGrid />} />
+        <Route path='/walletsummary' element={ <WalletSummary />} />
+        <Route path='/cardstatusdemo' element={ <CardStatusDemo />} />
+        <Route path='/headerbanner' element={ <HeaderBanner />} />
+        <Route path='/transactionmanager' element={ <TransactionManager />} />
+        <Route path='/LayoutGrid' element={ <LayoutGrid/>  } />
       </Routes>      
     </>
   )
