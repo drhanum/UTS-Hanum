@@ -21,6 +21,7 @@ function AppNavigation(){
               <NavDropdown.Item as={NavLink} to='/karturingkasan'>KartuRingkasan</NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to='/layoutgrid'>LayoutGrid</NavDropdown.Item>
               <NavDropdown.Item as={NavLink} to='/walletsummary'>WalletSummary</NavDropdown.Item>
+              <NavDropdown.Item as={NavLink} to='/axios'>PostListAxios</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

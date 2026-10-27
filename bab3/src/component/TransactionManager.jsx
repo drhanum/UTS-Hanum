@@ -118,11 +118,11 @@ export default function TransactionManager() {
   );
 }
 
-<AppNavigation />
+{/* <AppNavigation />
 
 import {useState} from 'react';
 import { useState, useEffect } from 'react';
-import {Form, InputGroup, Modal, Button, Table, ProgressBar}from 'react-bootstrap';
+import {Form, InputGroup, Modal, Button, Table, ProgressBar}from 'react-bootstrap'; */}
 // const s = useState(false)
 // const t = useState([])
 

@@ -9,6 +9,7 @@ import AppNavigation from './component/AppNavigation'
 import TransactionManager from './component/TransactionManager'
 import LayoutGrid from './component/LayoutGrid'
 import HeaderBanner from './component/HeaderBanner'
+import PostListAxios from './component/PostListAxios'
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path='/transactionmanager' element={ <TransactionManager/> } />
         <Route path='/karturingkasan' element={ <KartuRingkasan/> } />
         <Route path='/walletsummary' element={ <WalletSummary/> } />
+        <Route path='/axios' element={ <PostListAxios /> } />
       </Routes>
     </>
   )
